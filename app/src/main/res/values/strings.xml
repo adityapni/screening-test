@@ -1,0 +1,6 @@
+<resources>
+    <string name="app_name">HelloWorld4</string>
+    <string name="edit_message">Masukan Nama</string>
+    <string name="button_send">Next</string>
+    <string name="button_event">pilih event</string>
+</resources>
