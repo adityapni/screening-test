@@ -8,27 +8,36 @@
     android:paddingLeft="@dimen/activity_horizontal_margin"
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
+    android:background="@drawable/bg_validation"
     tools:context="com.example.user.helloworld4.DisplayMessageActivity">
     <EditText
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:id="@+id/editText"
         android:layout_alignParentEnd="true"
-        android:layout_marginEnd="99dp" />
+        android:layout_marginEnd="99dp"
+        android:background="@drawable/text_field"
+        android:layout_marginBottom="30dp"/>
     <Button
         android:id="@+id/button_event"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+
         android:layout_below="@+id/editText"
         android:text="@string/button_event"
-        android:onClick="showList"/>
+        android:onClick="showList"
+        android:background="@drawable/button_custom"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:textColor="#FFFFFF"
+        android:layout_marginBottom="30dp"/>
 
     <Button
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
         android:text="pilih guest"
         android:id="@+id/button_guest"
         android:layout_below="@+id/button_event"
-        android:onClick="showGrid"/>
+        android:onClick="showGrid"
+        android:background="@drawable/button_custom"
+        android:textColor="#FFFFFF"/>
 
 </RelativeLayout>
